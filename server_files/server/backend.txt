@@ -1,0 +1,3 @@
+Backend :
+
+	In the backend we have developed a python script for saving the metadata about the files currently present in the system to the a MySQL Database. This python script is a very flexible script which can be attached to any kind of updation to the server. Everytime there is a change in files of the system you just need to run this script once and all the changes will be parsed and saved to the database in the form of incremental updates to the database which saves them in the log table and pushes them as when the client gets connected. There is PHP based Web API which interfaces between the JAVA-based file bundling system and the metadata saved in the MySQL server.
